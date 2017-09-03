@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import AppointmentForm from './appointment_form'
 import { AppointmentsList } from './appointments_list'
 import update from 'immutability-helper'
+import './appointments.scss'
 
 export default class Appointments extends React.Component{
   constructor(props) {
